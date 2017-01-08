@@ -10,7 +10,7 @@ body {
 }
 
 .source {
-    position:fixed;
+    position:absolute;
     top:0;
     left:2;
     text-align:left;
