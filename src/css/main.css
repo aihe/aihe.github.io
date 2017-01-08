@@ -19,6 +19,14 @@ body {
     padding:5px;
 }
 
+.music {
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:32px;
+    opacity:0.9;
+}
+
 .page {
     width: 70%;
     height: 30%;
