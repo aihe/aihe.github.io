@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'visitor';
+    src: url('../fonts/visitor.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'visitor';
+}
+
+.source {
+    position:fixed;
+    top:0;
+    left:2;
+    text-align:left;
+    opacity:0.5;
+    letter-spacing: 3px;
+    padding:5px;
+}
+
+.page {
+    width: 70%;
+    height: 30%;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#title {
+    font-size: 40px;
+    text-align:center;
+}
+
+#wip {
+    text-align:right;
+    opacity:0.8;
+}
