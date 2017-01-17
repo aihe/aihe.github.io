@@ -23,6 +23,7 @@ body {
     position:fixed;
     bottom:0;
     right:0;
+    margin-right: 2%;
     width:32px;
     opacity:0.9;
 }
@@ -40,6 +41,10 @@ body {
     font-size: 50px;
     text-align:center;
     font-family: 'Arial';
+}
+
+#dancing {
+    display:none;
 }
 
 #wip {
