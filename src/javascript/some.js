@@ -7,9 +7,9 @@ var autreEnCours = false;
 async function eyesClosed() {
     if (autreEnCours == false) {
         autreEnCours = true;
-        document.getElementById('title').innerText = "-___________-";
+        document.getElementById('title').innerText = "( -___________-)";
         await sleep(350);
-        document.getElementById('title').innerText = "•___________•";
+        document.getElementById('title').innerText = "( •___________•)";
         autreEnCours = false;
     }
 }
@@ -18,11 +18,11 @@ async function eyesHappy() {
     if (autreEnCours == false) {
         autreEnCours = true;
         document.getElementById('page').style.marginTop="10%";
-        document.getElementById('title').innerText = "^___________^";
+        document.getElementById('title').innerText = "ヽ ( ^___________^) ﾉ";
         await sleep(350);
         document.getElementById('page').style.marginTop="20%";
         await sleep(400);
-        document.getElementById('title').innerText = "•___________•";
+        document.getElementById('title').innerText = "( •___________•)";
         autreEnCours = false;
     }
 }
