@@ -14,7 +14,7 @@ async function eyesClosed() {
     }
 }
 
-async function eyesDead() {
+async function eyesHappy() {
     if (autreEnCours == false) {
         autreEnCours = true;
         document.getElementById('page').style.marginTop="10%";
