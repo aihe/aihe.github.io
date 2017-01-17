@@ -37,16 +37,19 @@ async function dancing() {
             document.getElementById('title').innerText = "ᕕ( ^___________^)ᕗ";
             await sleep(450);
             document.getElementById('page').style.marginLeft="15%";
+            await sleep(400);
         } else if (nb > 0.333 && nb < 0.666) {
             document.getElementById('page').style.marginLeft="25%";
             document.getElementById('title').innerText = "(づ ^___________^)づ";
-            await sleep(450);
+            await sleep(400);
             document.getElementById('page').style.marginLeft="15%";
+            await sleep(450);
         } else if (nb > 0.666) {
             document.getElementById('page').style.marginTop="10%";
             document.getElementById('title').innerText = "ᑫ( ^___________^)ᑷ";
             await sleep(450);
             document.getElementById('page').style.marginTop="20%";
+            await sleep(400);
         }
     }
 }
