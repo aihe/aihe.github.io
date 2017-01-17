@@ -27,17 +27,19 @@ body {
     opacity:0.9;
 }
 
-.page {
+#page {
     width: 70%;
     height: 30%;
     margin-top: 20%;
     margin-left: 15%;
     margin-right: 15%;
+    transition-duration: .4s;
 }
 
 #title {
-    font-size: 40px;
+    font-size: 50px;
     text-align:center;
+    font-family: 'Arial';
 }
 
 #wip {
