@@ -18,7 +18,7 @@ async function eyesHappy() {
     if (autreEnCours == false) {
         autreEnCours = true;
         document.getElementById('page').style.marginTop="10%";
-        document.getElementById('title').innerText = "ヽ ( ^___________^) ﾉ";
+        document.getElementById('title').innerText = "ヽ( ^___________^)ﾉ";
         await sleep(350);
         document.getElementById('page').style.marginTop="20%";
         await sleep(400);
@@ -27,7 +27,7 @@ async function eyesHappy() {
     }
 }
 
-function play(){
+function play() {
     var audio = document.getElementById('audio');
     if (audio.paused) {
         audio.play();
@@ -44,7 +44,7 @@ function play(){
     }
 }
 
-var clignotement = function(){
+function clignotement() {
     if (autreEnCours == false) {
         autreEnCours = true;
         if (document.getElementById('commandes').style.visibility=='visible'){
