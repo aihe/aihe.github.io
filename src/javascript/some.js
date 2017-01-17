@@ -1,10 +1,3 @@
-
-
-function sleep(){
-	var waitUntil = new Date().getTime() + ms;
-	while(new Date().getTime() < waitUntil) true;
-}
-
 var autreEnCours = false;
 
 function eyesClosed() {
@@ -42,10 +35,11 @@ function dancing() {
 
     if (nb < 0.333) {
         document.getElementById('page').style.marginLeft="5%";
-        document.getElementById('title').innerText = "ᕕ( ^___________^)ᕗ";
+        document.getElementById('title').innerText = "ᕕ(^___________^ )ᕗ";
 
         setTimeout(function(){
             document.getElementById('page').style.marginLeft="15%";
+			document.getElementById('title').innerText = "ᕕ( ^___________^)ᕗ";
         }, 450);
         setTimeout(function(){
         }, 850);
