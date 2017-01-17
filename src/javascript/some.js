@@ -28,24 +28,24 @@ async function eyesHappy() {
 }
 
 async function dancing() {
-    while (autreEnCours) {
+    while(autreEnCours) {
         document.getElementById('title').innerText = "( ^___________^)";
         var nb = Math.random();
         console.log(nb);
-        if (nb > 0.333) {
+        if (nb < 0.333) {
             document.getElementById('page').style.marginLeft="5%";
             document.getElementById('title').innerText = "ᕕ( ^___________^)ᕗ";
-            await sleep(350);
+            await sleep(450);
             document.getElementById('page').style.marginLeft="15%";
         } else if (nb > 0.333 && nb < 0.666) {
             document.getElementById('page').style.marginLeft="25%";
             document.getElementById('title').innerText = "(づ ^___________^)づ";
-            await sleep(350);
+            await sleep(450);
             document.getElementById('page').style.marginLeft="15%";
-        } else {
+        } else if (nb > 0.666) {
             document.getElementById('page').style.marginTop="10%";
             document.getElementById('title').innerText = "ᑫ( ^___________^)ᑷ";
-            await sleep(350);
+            await sleep(450);
             document.getElementById('page').style.marginTop="20%";
         }
     }
