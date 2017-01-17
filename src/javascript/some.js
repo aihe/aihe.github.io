@@ -31,7 +31,6 @@ function play(){
     var audio = document.getElementById('audio');
     if (audio.paused) {
         audio.play();
-    
         document.getElementById('dancing').style.display="inline";
         document.getElementById('icone').innerHTML=
         "<i class='fa fa-pause-circle fa-2x' aria-hidden='true'></i>";
