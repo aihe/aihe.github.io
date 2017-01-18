@@ -91,15 +91,9 @@ function play() {
 }
 
 function clignotement() {
-    if (autreEnCours == false) {
-        autreEnCours = true;
-        if (document.getElementById('commandes').style.visibility=='visible'){
-           document.getElementById('commandes').style.visibility='hidden';
-        } else {
-        document.getElementById('commandes').style.visibility='visible';
-        }
-        autreEnCours = false;
-    }
+    document.getElementById('commandes').style.visibility =
+    document.getElementById('commandes').style.visibility=='visible' ? 'hidden'
+                                                                     : 'visible';
 };
 
 periode = setInterval(clignotement, 800);
