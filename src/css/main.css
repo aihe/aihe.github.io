@@ -29,7 +29,7 @@ body {
 }
 
 #icone {
-    opacity:0.4
+    opacity:0.4;
 }
 
  #icone:hover {
@@ -47,11 +47,24 @@ body {
 
 .reseaux i {
     opacity:0.4;
+    transition-duration: 0.7s;
 }
 
 .reseaux i:hover {
     opacity:1;
     cursor:pointer;
+}
+
+#fb:hover {
+    color:#3b5998;
+}
+
+#twitter:hover {
+    color:#62bef6;
+}
+
+#github:hover {
+    color:#f5f5f5;
 }
 
 #page {
