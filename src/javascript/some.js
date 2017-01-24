@@ -75,12 +75,14 @@ function play() {
     if (audio.paused) {
         audio.play();
         document.getElementById('dancing').style.display="inline";
+        document.getElementById('icone').style.opacity=1;
         document.getElementById('icone').innerHTML=
         "<i class='fa fa-pause-circle fa-2x' aria-hidden='true'></i>";
         autreEnCours = true;
         dancing();
     } else {
         audio.pause();
+        document.getElementById('icone').style.opacity=0.4;
         audio.currentTime = 0;
         autreEnCours = false;
         document.getElementById('title').innerText = "( •___________•)";

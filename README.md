@@ -4,4 +4,5 @@
 
 ![HTML power](pics/cya.gif)
 
-Not done yet, see ya lat'r!
+( •___________•)
+This website is as useless as me : perfect.

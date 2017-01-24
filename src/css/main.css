@@ -28,6 +28,32 @@ body {
     opacity:0.9;
 }
 
+#icone {
+    opacity:0.4
+}
+
+ #icone:hover {
+    opacity:1;
+}
+
+.reseaux {
+    position:fixed;
+    top:0;
+    right:0;
+    margin-right:1.5%;
+    margin-top: 1.5%;
+    font-size:28px;
+}
+
+.reseaux i {
+    opacity:0.4;
+}
+
+.reseaux i:hover {
+    opacity:1;
+    cursor:pointer;
+}
+
 #page {
     width: 70%;
     height: 30%;
