@@ -93,9 +93,9 @@ function play() {
 }
 
 function clignotement() {
-    document.getElementById('commandes').style.visibility =
-    document.getElementById('commandes').style.visibility=='visible' ? 'hidden'
-                                                                     : 'visible';
+    var visibility = document.getElementById('commandes').style.visibility;
+    document.getElementById('commandes').style.visibility = visibility ? 'hidden'
+                                                                       : 'visible';
 };
 
 periode = setInterval(clignotement, 800);
