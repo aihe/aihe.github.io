@@ -95,8 +95,8 @@ function play() {
 function clignotement() {
     var visibiliteActuelle = document.getElementById('commandes').style.visibility;
     document.getElementById('commandes').style.visibility =
-    document.getElementById('commandes').style.visibility ? 'hidden'
-                                                          : 'visible';
+    document.getElementById('commandes').style.visibility == 'visible' ? 'hidden'
+                                                                       : 'visible';
 };
 
 periode = setInterval(clignotement, 800);
