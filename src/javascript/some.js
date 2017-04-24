@@ -95,7 +95,7 @@ function play() {
 function clignotement() {
     var visibiliteActuelle = document.getElementById('commandes').style.visibility;
     document.getElementById('commandes').style.visibility =
-    document.getElementById('commandes').style.visibility ? 'hidden'
+    document.getElementById('commandes').style.visibility == 'visible' ? 'hidden'
                                                           : 'visible';
 };
 
