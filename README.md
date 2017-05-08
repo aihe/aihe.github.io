@@ -1,6 +1,6 @@
 =======
 
-# ( •___________•)  aihe.github.io 
+# ( •___________•) < aihe.github.io 
 
 ![HTML power](pics/cya.gif)
 
