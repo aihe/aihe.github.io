@@ -4,5 +4,4 @@
 
 ![HTML power](pics/cya.gif)
 
-( •___________•) <
-This website is as useless as me : perfect.
+( •___________•)
