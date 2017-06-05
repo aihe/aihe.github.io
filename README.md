@@ -1,4 +1,4 @@
-# ( •___________•) < ![aihe.github.io](https://aihe.github.io/)
+# ( •___________•) < [aihe.github.io](https://aihe.github.io/)
 
 ![hey](pics/cya.gif)
 
