@@ -1,3 +1,3 @@
 ![](pics/boy.gif)
 
-## [aihe.github.io](https://aihe.github.io/)
+## [view live](https://aihe.github.io/dancing-boi)
