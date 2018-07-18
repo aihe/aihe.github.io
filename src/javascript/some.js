@@ -70,7 +70,7 @@ function dancing() {
     }}, 850);
 }
 
-function play() {
+function toggle_song() {
 	let audio = document.getElementById('audio');
 	audio.volume = 0.1;
     if (audio.paused) {
