@@ -1,15 +1,14 @@
-<!-- Debut
-function voleur(e) {
-    return false;
+function disabled_click(e) {
+    return (false);
 }
 
-function bien() {
-    return true;
+function click_workin() {
+    return (true);
 }
 
-document.onselectstart=new Function ("return false");
+document.onselectstart = new Function("return false");
 
 if (window.sidebar) {
-  document.onmousedown=voleur;
-  document.onclick=bien;
+  document.onmousedown = disabled_click;
+  document.onclick = click_workin;
 }

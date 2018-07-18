@@ -1,19 +1,19 @@
-var autreEnCours = false;
+let is_animated = false;
 
-function eyesClosed() {
-    if (autreEnCours == false) {
-        autreEnCours = true;
+function eyes_closed() {
+    if (is_animated == false) {
+        is_animated = true;
         document.getElementById('title').innerText = "( -___________-)";
         setTimeout(function(){
             document.getElementById('title').innerText = "( •___________•)";
-            autreEnCours = false;
+            is_animated = false;
         }, 350);
     }
 }
 
-function eyesHappy() {
-    if (autreEnCours == false) {
-        autreEnCours = true;
+function eyes_happy() {
+    if (is_animated == false) {
+        is_animated = true;
         document.getElementById('page').style.marginTop="10%";
         document.getElementById('title').innerText = "ヽ( ^___________^)ﾉ";
 
@@ -23,14 +23,14 @@ function eyesHappy() {
 
         setTimeout(function(){
             document.getElementById('title').innerText = "( •___________•)";
-            autreEnCours = false;
+            is_animated = false;
         }, 800);
     }
 }
 
 function dancing() {
     document.getElementById('title').innerText = "( ^___________^)";
-    var nb = Math.random();
+    let nb = Math.random();
     console.log(nb);
 
     if (nb < 0.333) {
@@ -65,26 +65,27 @@ function dancing() {
         }, 850);
     }
 
-    setTimeout(function(){if (autreEnCours) {
+    setTimeout(function(){if (is_animated) {
         dancing();
     }}, 850);
 }
 
 function play() {
-    var audio = document.getElementById('audio');
+	let audio = document.getElementById('audio');
+	audio.volume = 0.1;
     if (audio.paused) {
         audio.play();
         document.getElementById('dancing').style.display="inline";
         document.getElementById('icone').style.opacity=1;
         document.getElementById('icone').innerHTML=
         "<i class='fa fa-pause-circle fa-2x' aria-hidden='true'></i>";
-        autreEnCours = true;
+        is_animated = true;
         dancing();
     } else {
         audio.pause();
         document.getElementById('icone').style.opacity=0.4;
         audio.currentTime = 0;
-        autreEnCours = false;
+        is_animated = false;
         document.getElementById('title').innerText = "( •___________•)";
         document.getElementById('dancing').style.display="none";
         document.getElementById('icone').innerHTML=
@@ -92,9 +93,9 @@ function play() {
     }
 }
 
-function clignotement() {
-    document.getElementById('commandes').style.visibility =
-    document.getElementById('commandes').style.visibility == 'visible' ? 'hidden' : 'visible';
+function blinking() {
+    document.getElementById('commands').style.visibility =
+    document.getElementById('commands').style.visibility == 'visible' ? 'hidden' : 'visible';
 };
 
-periode = setInterval(clignotement, 800);
+periode = setInterval(blinking, 800);
